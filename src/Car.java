@@ -50,6 +50,10 @@ public class Car {
 	 * @param amount	The amount the car will decelerate
 	 */
 	public void decelerate(int amount){
-		this.speed = this.speed - amount;
+		if(this.speed - amount < 0){
+			this.speed = 0;
+		} else {
+			this.speed = this.speed - amount;
+		}
 	}
 }
