@@ -46,7 +46,8 @@ public class Car {
 	}
 
 	/**
-	 * Decelerates the car by the passed in amount
+	 * Decelerates the car by the passed in amount,
+	 * reducing its speed to a minimum of 0.
 	 * @param amount	The amount the car will decelerate
 	 */
 	public void decelerate(int amount){
