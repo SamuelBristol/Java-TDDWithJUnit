@@ -45,4 +45,11 @@ public class Car {
 		return("Color: " + this.color + ", Speed: " + this.getSpeed());
 	}
 
+	/**
+	 * Decelerates the car by the passed in amount
+	 * @param amount	The amount the car will decelerate
+	 */
+	public void decelerate(int amount){
+		
+	}
 }
